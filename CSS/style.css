@@ -1,0 +1,208 @@
+body {
+  background-color: rgb(17, 17, 17);
+  position: relative;
+}
+.leftSide {
+  max-width: 300px;
+  width: 90%;
+  height: 670px;
+  background-color: rgb(30, 30, 30);
+  border-radius: 18px;
+  position: absolute;
+  left: 5%;
+  margin-top: 50px;
+}
+.profile {
+  height: 240px;
+  position: relative;
+}
+.imgBack {
+  background-color: rgb(57, 57, 57);
+  max-width: 150px;
+  width: 90%;
+  height: 150px;
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 18px;
+  padding: 20px;
+}
+.name {
+  position: absolute;
+  bottom: 0;
+  left: 17%;
+  color: white;
+  font-size: 25px;
+  max-width: 240px;
+  width: 90%;
+  font-family: "Roboto2";
+}
+.profMain {
+  width: 150px;
+  height: 35px;
+  background-color: rgb(57, 57, 57);
+  position: relative;
+  color: white;
+  font-size: 13px;
+  font-family: "Roboto3";
+  border-radius: 12px;
+  margin: 20px auto;
+}
+.prof {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center;
+}
+.image1 {
+  height: 120px;
+}
+.line {
+  width: 90%;
+  height: 2px;
+  background-color: rgb(57, 57, 57);
+  margin: 20px auto;
+}
+.EmailDiv {
+  width: 85%;
+  height: 50px;
+  margin: 20px auto;
+  display: flex;
+  position: relative;
+}
+.Icon {
+  width: 50px;
+  height: 50px;
+  background-color: rgb(34, 32, 33);
+  position: relative;
+  border-radius: 50%;
+}
+.fa-envelope,
+.fa-mobile-screen-button,
+.fa-calendar-days,
+.fa-location-dot {
+  color: rgb(190, 190, 60);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 25px;
+}
+.nameEmail {
+  margin: 2px;
+  color: rgba(255, 255, 255, 0.623);
+  font-family: "Roboto1";
+}
+.Phoneto,
+.mailto {
+  position: absolute;
+  bottom: 20%;
+  left: 20%;
+  color: white;
+  font-family: "Roboto1";
+}
+.namePhone,
+.nameBirthday {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.623);
+  font-family: "Roboto1";
+}
+.IconUnion {
+  width: 90px;
+  height: 20px;
+  margin: 0 auto;
+  display: flex;
+  column-gap: 35px;
+  position: relative;
+}
+
+.fa-github,
+.fa-linkedin,
+.fa-instagram {
+  font-size: 20px;
+  color: white;
+  position: absolute;
+  transition: all 0.3s ease-in-out;
+}
+
+.fa-github:hover,
+.fa-linkedin:hover,
+.fa-instagram:hover {
+  transform: translateY(-10px);
+}
+.RightSide {
+  max-width: 900px;
+  width: 90%;
+  height: 670px;
+  background-color: rgb(30, 30, 30);
+  border-radius: 18px;
+  position: absolute;
+  right: 13%;
+  margin-top: 50px;
+}
+.titleDiv {
+  max-width: 160px;
+  width: 90%;
+  height: 50px;
+  margin: 50px 0 0 30px;
+}
+.Title {
+  font-size: 35px;
+  color: white;
+  font-family: "Roboto1";
+}
+.line2 {
+  width: 45px;
+  height: 3.5px;
+  background-color: yellow;
+  margin-left: 30px;
+}
+.TopSide {
+  position: absolute;
+  right: 0;
+  top: 0;
+  border-top-right-radius: 12px;
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+  width: 500px;
+  height: 75px;
+  background-color: rgb(40, 40, 40);
+}
+.navigation {
+  width: 90%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.ul-elements {
+  display: flex;
+  margin-left: 40px;
+}
+.li-el {
+  margin-left: 20px;
+}
+.topIndexes {
+  color: rgba(255, 255, 255, 0.838);
+  font-family: "Roboto3";
+  font-size: 20px;
+  transition: all 0.7s ease;
+}
+.topIndexes:hover {
+  color: rgb(187, 187, 66);
+}
+.activeyell {
+  color: rgb(193, 193, 56);
+}
+.descrDiv {
+  width: 93%;
+  margin: 25px auto;
+  color: white;
+  font-family: "Roboto1";
+}
+.pDescr {
+  margin-top: 20px;
+}
