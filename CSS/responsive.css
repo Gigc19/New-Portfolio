@@ -1,0 +1,187 @@
+@media (max-width: 1024px) {
+  .block {
+    height: 170px;
+  }
+  .Title {
+    margin-top: 30px;
+  }
+  .UserName {
+    width: 93%;
+  }
+}
+@media (max-width: 1000px) {
+  .block {
+    height: 170px;
+  }
+  .Title {
+    margin-top: 30px;
+  }
+  .DivBlock {
+    flex-direction: column;
+    height: fit-content;
+    row-gap: 30px;
+  }
+  .block {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .DivUnion2 {
+    flex-direction: column;
+    row-gap: 30px;
+  }
+  .media {
+    display: none;
+  }
+}
+@media (max-width: 815px) {
+  .MainSection {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .leftSide {
+    max-width: 100%;
+    width: 90%;
+    height: auto;
+  }
+
+  .RightSide {
+    max-width: 100%;
+    width: 90%;
+  }
+  .profile {
+    height: 180px;
+  }
+  .block {
+    width: 100%;
+  }
+  .profMain {
+    position: absolute;
+    top: 12%;
+    left: 35%;
+    width: 150px;
+    height: 35px;
+  }
+  .imgBack {
+    top: 50%;
+    left: 15%;
+  }
+  .name {
+    top: 10%;
+    left: 30%;
+  }
+  .introname {
+    display: block;
+    color: white;
+    font-size: 14px;
+    position: absolute;
+    top: 70%;
+    left: 30%;
+    font-family: "Roboto1";
+  }
+  .Phoneto,
+  .mailto {
+    left: 10%;
+  }
+  .fa-github,
+  .fa-linkedin,
+  .fa-instagram {
+    font-size: 25px;
+  }
+
+}
+@media (max-width: 680px) {
+  .profile {
+    height: 340px;
+  }
+  .imgBack {
+    position: absolute;
+    top: 30%;
+    left: 48%;
+  }
+  .name {
+    top: 56%;
+    left: 26%;
+  }
+  .profMain {
+    top: 38%;
+    left: 37%;
+  }
+  .introname {
+    width: 90%;
+    text-align: center;
+    left: 5%;
+    top: 85%;
+    height: 70px;
+  }
+  .Phoneto,
+  .mailto {
+    left: 13%;
+  }
+}
+@media (max-width: 545px) {
+  .TopSide {
+    transition: all 0.4s ease-in;
+    overflow: hidden;
+    justify-content: center;
+  }
+
+  .ul-elements {
+    flex-direction: column;
+    row-gap: 50px;
+    align-items: center;
+  }
+  .titleDiv {
+    margin-bottom: 30px;
+  }
+  .actiuri {
+    margin-bottom: 50px;
+  }
+  .burgerBar {
+    display: block;
+    position: absolute;
+  }
+  .TopSide.activeTopside {
+    height: 400px;
+    justify-content: center;
+  }
+}
+@media (max-width: 480px) {
+  .name {
+    top: 56%;
+    left: 18%;
+  }
+  .profMain {
+    top: 36%;
+    left: 30%;
+  }
+  .Phoneto,
+  .mailto {
+    left: 20%;
+  }
+  .OtherTITle {
+    font-size: 25px;
+  }
+}
+@media (max-width: 380px) {
+  .introname {
+    display: none;
+  }
+  .imgBack {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+  }
+  .profile {
+    height: 280px;
+  }
+  .name {
+    top: 65%;
+    left: 15%;
+  }
+ 
+  .Phoneto,
+  .mailto {
+    left: 25%;
+  }
+}

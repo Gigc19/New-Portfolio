@@ -1,6 +1,13 @@
 body {
   background-color: rgb(17, 17, 17);
-  position: relative;
+}
+.MainSection {
+  width: 90%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  column-gap: 40px;
 }
 .leftSide {
   max-width: 300px;
@@ -8,8 +15,6 @@ body {
   height: 670px;
   background-color: rgb(30, 30, 30);
   border-radius: 18px;
-  position: absolute;
-  left: 5%;
   margin-top: 50px;
 }
 .profile {
@@ -35,8 +40,8 @@ body {
   left: 17%;
   color: white;
   font-size: 25px;
-  max-width: 240px;
-  width: 90%;
+  width: fit-content;
+  text-align: center;
   font-family: "Roboto2";
 }
 .profMain {
@@ -93,7 +98,6 @@ body {
   font-size: 25px;
 }
 .nameEmail {
-  margin: 2px;
   color: rgba(255, 255, 255, 0.623);
   font-family: "Roboto1";
 }
@@ -112,11 +116,11 @@ body {
   font-family: "Roboto1";
 }
 .IconUnion {
-  width: 90px;
-  height: 20px;
+  width: 120px;
+  height: 40px;
   margin: 0 auto;
   display: flex;
-  column-gap: 35px;
+  column-gap: 40px;
   position: relative;
 }
 
@@ -137,18 +141,18 @@ body {
 .RightSide {
   max-width: 900px;
   width: 90%;
-  height: 670px;
+  height: fit-content;
   background-color: rgb(30, 30, 30);
   border-radius: 18px;
-  position: absolute;
-  right: 13%;
   margin-top: 50px;
+  padding-bottom: 50px;
 }
+
 .titleDiv {
-  max-width: 160px;
+  max-width: 250px;
   width: 90%;
   height: 50px;
-  margin: 50px 0 0 30px;
+  margin-left: 30px;
 }
 .Title {
   font-size: 35px;
@@ -161,26 +165,27 @@ body {
   background-color: yellow;
   margin-left: 30px;
 }
+.lists {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}
 .TopSide {
-  position: absolute;
-  right: 0;
-  top: 0;
+  display: flex;
+  align-items: center;
   border-top-right-radius: 12px;
   border-top-left-radius: 12px;
   border-bottom-left-radius: 12px;
-  width: 500px;
+  max-width: 430px;
+  width: 100%;
   height: 75px;
   background-color: rgb(40, 40, 40);
 }
 .navigation {
   width: 90%;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
 }
 .ul-elements {
   display: flex;
-  margin-left: 40px;
 }
 .li-el {
   margin-left: 20px;
@@ -205,4 +210,199 @@ body {
 }
 .pDescr {
   margin-top: 20px;
+}
+.DivBlock {
+  width: 90%;
+  height: 380px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.block {
+  width: 45%;
+  height: 150px;
+  background-color: rgb(34, 34, 36);
+  margin-top: 20px;
+  border-radius: 18px;
+  border-top: 2px solid rgba(255, 255, 255, 0.225);
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.fa-connectdevelop,
+.fa-code,
+.fa-mobile-screen,
+.fa-camera-retro {
+  color: yellow;
+  font-size: 50px;
+  margin-left: 20px;
+}
+.titleSmall {
+  font-size: 18px;
+  font-family: "Roboto2";
+  color: white;
+  margin: 15px;
+}
+.pdescr2 {
+  font-size: 16px;
+  font-family: "Roboto4";
+  color: rgba(255, 255, 255, 0.541);
+  margin: 15px;
+  line-height: 20px;
+}
+.IconTop {
+  height: 80px;
+}
+.DivUnion2 {
+  width: 90%;
+  height: 150px;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.titleSmall2,
+.titleSmall3 {
+  font-size: 18px;
+  font-family: "Roboto2";
+  color: white;
+  margin: 15px;
+  text-align: right;
+}
+.pdescr3,
+.pdescr4 {
+  font-size: 16.6px;
+  font-family: "Roboto4";
+  color: rgba(255, 255, 255, 0.541);
+  margin: 15px;
+  line-height: 20px;
+}
+
+.IconBlock {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  left: 1%;
+  top: -25%;
+  border-radius: 12px;
+}
+.IconBlock2 {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  left: 0;
+  top: -25%;
+  border-radius: 12px;
+}
+.imagesize {
+  width: 100%;
+  border-radius: 12px;
+}
+.introname {
+  display: none;
+}
+.burgerBar {
+  width: 30px;
+  height: 30px;
+  position: relative;
+  margin: 10px;
+  display: none;
+}
+.bar {
+  width: 90%;
+  height: 2px;
+  background-color: rgba(255, 255, 0, 0.952);
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: all 0.5s ease-in-out;
+}
+.one {
+  top: 30%;
+}
+.two {
+  top: 50%;
+}
+.three {
+  top: 70%;
+}
+.burgerBar.activeBar .one {
+  transform: translateX(-50%) rotate(45deg);
+  top: 50%;
+}
+.burgerBar.activeBar .two {
+  opacity: 0;
+}
+.burgerBar.activeBar .three {
+  transform: translateX(-50%) rotate(-45deg);
+  top: 50%;
+}
+.map-container {
+  width: 90%;
+  height: 350px;
+  margin: 40px auto;
+  border-radius: 12px;
+}
+.myMap {
+  filter: grayscale(100%) invert(100%);
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+}
+.FormDiv {
+  width: 90%;
+  height: 320px;
+  margin: 30px auto;
+  position: relative;
+}
+.UserName {
+  width: 43%;
+  height: 50px;
+  background-color: rgb(30, 30, 30);
+  border: 2px solid rgba(255, 255, 255, 0.422);
+  font-size: 20px;
+  font-family: "Roboto1";
+  outline: none;
+  padding-left: 10px;
+  color: white;
+  margin-right: 43px;
+  margin-top: 10px;
+}
+.messageCSS {
+  width: 93%;
+  height: 150px;
+  background-color: rgb(30, 30, 30);
+  border: 2px solid rgba(255, 255, 255, 0.422);
+  font-size: 20px;
+  font-family: "Roboto1";
+  outline: none;
+  padding-left: 10px;
+  color: white;
+  display: flex;
+  justify-content: start;
+  margin-top: 30px;
+  resize: none;
+}
+.textemail {
+  position: absolute;
+  right: 33%;
+}
+.Btn {
+  background-color: rgb(30, 30, 30);
+  font-size: 20px;
+  font-family: "Roboto1";
+  color: rgba(255, 255, 255, 0.721);
+  width: 200px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 5%;
+  margin-top: 50px;
+}
+.sent {
+  margin-left: 15px;
 }

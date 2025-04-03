@@ -1,0 +1,21 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Bobby Fischer",
+      "text": "Gigi's work being 'very pleasing' is great, but maybe elaborate on what made it stand out!",
+      "url": "https://png.pngtree.com/png-vector/20230811/ourlarge/pngtree-chess-icon-with-three-chess-pieces-vector-png-image_6841588.png"
+    }
+  ],
+  "comments": [
+    {
+      "id": 2,
+      "title": "Ryan Garcia",
+      "text": "He was hired to create a corporate identity.We were very pleased with the work..",
+      "url": "https://anthonyjoshua.com/cdn/shop/articles/AJ_Fight_Insta_1.png?v=1662478898"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
