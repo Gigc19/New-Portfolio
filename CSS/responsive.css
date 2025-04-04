@@ -8,6 +8,16 @@
   .UserName {
     width: 93%;
   }
+  .VerticalLine2 {
+    height: 200px;
+  }
+  .textBall {
+    height: 200px;
+    width: 320px;
+  }
+  .Resume {
+    height: 900px;
+  }
 }
 @media (max-width: 1000px) {
   .block {
@@ -31,6 +41,10 @@
   }
   .media {
     display: none;
+  }
+  .responsiveDesign {
+    
+    height: 680px;
   }
 }
 @media (max-width: 815px) {
@@ -57,7 +71,7 @@
   }
   .profMain {
     position: absolute;
-    top: 12%;
+    top: 9%;
     left: 35%;
     width: 150px;
     height: 35px;
@@ -88,7 +102,10 @@
   .fa-instagram {
     font-size: 25px;
   }
-
+  .VerticalLine,
+  .VerticalLine2 {
+    height: 120px;
+  }
 }
 @media (max-width: 680px) {
   .profile {
@@ -145,6 +162,9 @@
     height: 400px;
     justify-content: center;
   }
+  .textBall {
+    width: 280px;
+  }
 }
 @media (max-width: 480px) {
   .name {
@@ -152,7 +172,7 @@
     left: 18%;
   }
   .profMain {
-    top: 36%;
+    top: 29%;
     left: 30%;
   }
   .Phoneto,
@@ -161,6 +181,19 @@
   }
   .OtherTITle {
     font-size: 25px;
+  }
+  .textBall {
+    width: 200px;
+  }
+  .VerticalLine,
+  .VerticalLine2 {
+    height: 150px;
+  }
+  .displayNone {
+    display: none;
+  }
+  .Resume {
+    height: 1000px;
   }
 }
 @media (max-width: 380px) {
@@ -179,9 +212,15 @@
     top: 65%;
     left: 15%;
   }
- 
+
   .Phoneto,
   .mailto {
     left: 25%;
+  }
+  .profMain {
+    top: 38%;
+  }
+  .textBall {
+    width: 150px;
   }
 }
