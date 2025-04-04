@@ -43,8 +43,20 @@
     display: none;
   }
   .responsiveDesign {
-    
     height: 680px;
+  }
+  .portfolioList {
+    max-width: 490px;
+    width: 80%;
+    height: 170px;
+    justify-content: start;
+    align-items: center;
+  }
+  .ulPortfolio {
+    flex-direction: column;
+  }
+  .listPortfolio {
+    margin-top: 20px;
   }
 }
 @media (max-width: 815px) {

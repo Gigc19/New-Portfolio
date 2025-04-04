@@ -507,9 +507,7 @@ body {
 .ulPortfolio {
   display: flex;
 }
-.listPortfolio {
-  margin-left: 15px;
-}
+.listPortfolio
 .APorfolio {
   color: white;
   font-family: "Roboto", sans-serif;
@@ -530,4 +528,12 @@ body {
 
 .APorfolio:hover::before {
   width: 100%;
+}
+.MainBloCK {
+  width: 90%;
+  height: 200px;
+  margin: 0 auto;
+}
+.actiru2 {
+  margin-top: 40px;
 }
