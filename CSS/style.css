@@ -507,8 +507,7 @@ body {
 .ulPortfolio {
   display: flex;
 }
-.listPortfolio
-.APorfolio {
+.listPortfolio .APorfolio {
   color: white;
   font-family: "Roboto", sans-serif;
   font-size: 19px;
@@ -536,4 +535,35 @@ body {
 }
 .actiru2 {
   margin-top: 40px;
+}
+.item1 {
+  width: 250px;
+  height: 200px;
+  position: relative;
+}
+.imgSizeItem {
+  width: 100%;
+  height: 100%;
+}
+.Link {
+  position: absolute;
+  z-index: 1;
+  right: 0;
+  bottom: 0;
+}
+.IconColor {
+  background-color: white;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  position: relative;
+  animation: mymove 2s linear infinite;
+}
+@keyframes mymove {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
